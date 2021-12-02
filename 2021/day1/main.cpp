@@ -33,7 +33,6 @@ int main() {
                 if ((current_sum - previous_sum) > 0){
                     part2_positive_count++;
                 }
-
             }
             i++;
         }
