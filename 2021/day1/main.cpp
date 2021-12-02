@@ -8,7 +8,7 @@ int main() {
     int part1_positive_count = 0;
     int part2_positive_count = 0;
     ifstream input_file ("2021/day1/input.txt");
-    int total_count = count(istreambuf_iterator<char>(input_file), istreambuf_iterator<char>(), '\n');
+    int total_count = count(istreambuf_iterator<char>(input_file), istreambuf_iterator<char>(), '\n') + 1;
     int input_data [total_count];
     input_file.clear();
     input_file.seekg(0);
