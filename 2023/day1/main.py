@@ -24,7 +24,6 @@ def parse_calibrate_value(line: str) -> int:
 
 def convert_string_num_to_int(line: str) -> int:
     string_to_num = {
-        # "zero": 0,
         "one": 1,
         "two": 2,
         "three": 3,
